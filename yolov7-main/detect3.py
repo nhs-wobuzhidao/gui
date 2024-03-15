@@ -249,9 +249,9 @@ def detect(save_img=False):
                     global x
                     x = x + 1
                     g.write(str(x))
-                    global proc
-                    proc.put(1)
-                    setting.newproc.put(1)
+                    #global proc
+                    #proc.put(1)
+                    #setting.newproc.put(1)
                     g.close()
                 #print(proc)
                 # elif current_frame_iou == previous_overlapping_pairs_iou:
